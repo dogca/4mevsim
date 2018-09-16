@@ -15,8 +15,10 @@ namespace WebApplication3.Controllers
         }
         public ActionResult Iletisim()
         {
-            ViewBag.Message = "Your application description page.";
-
+            return View();
+        }
+        public ActionResult Urunler()
+        {
             return View();
         }
     }

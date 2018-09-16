@@ -1371,7 +1371,7 @@ img{
   display: inline;
   float: left;
   height: 270px;
-  width: 100%;
+  width: 340px;
 }
 
 .blog-news-img img {
@@ -1381,9 +1381,10 @@ img{
 
 .blog-news-title {
   display: inline;
-  float: left;
-  padding: 20px 15px 15px;
-  width: 100%;
+  text-align: center;
+  /*float: center;*/
+  padding: 0 20px;
+  width: 240px;
 }
 
 .blog-news-title h2,
@@ -1417,8 +1418,9 @@ img{
 .blog-news-title .blog-date{}
 .blog-news-details{
   display: inline;
-  float: left;
-  padding: 0 15px;
+  /*float: left;*/
+  text-align: center;
+  padding: 0 20px 200px;
   width: 100%;
 }
 
@@ -1521,7 +1523,7 @@ img{
 
 #footer{
   bottom:0;
-  position:absolute;
+
   background-color: #171717;
   display: inline;
   float: left;
