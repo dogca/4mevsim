@@ -1360,7 +1360,7 @@ img{
 }
 
 .blog-news-single {
-  background-color: #000;
+  background-color: #fff;
   display: inline;
   float: left;
   width: 100%;
@@ -1381,7 +1381,8 @@ img{
 
 .blog-news-title {
   display: inline;
-  float: left;
+  /*float: left;*/
+  text-align: center;
   padding: 20px 15px 15px;
   width: 100%;
 }
