@@ -207,6 +207,10 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Home\Iletisim.cshtml" />
     <Content Include="Views\Home\Urunler.cshtml" />
+    <Content Include="Views\Home\_Slider.cshtml" />
+    <Content Include="Views\Home\_Urunler.cshtml" />
+    <Content Include="Views\Home\_Portfolyo.cshtml" />
+    <Content Include="Views\Home\_AltLink.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

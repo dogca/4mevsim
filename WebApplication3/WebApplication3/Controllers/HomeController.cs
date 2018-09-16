@@ -13,6 +13,7 @@ namespace WebApplication3.Controllers
         {
             return View();
         }
+        [ChildActionOnly]
         public ActionResult Iletisim()
         {
             return View();
@@ -21,5 +22,22 @@ namespace WebApplication3.Controllers
         {
             return View();
         }
+        public ActionResult _Slider()
+        {
+            return View();
+        }
+        public ActionResult _Urunler()
+        {
+            return View();
+        }
+        public ActionResult _Portfolyo()
+        {
+            return View();
+        }
+        public ActionResult _AltLink()
+        {
+            return View();
+        }
+
     }
 }
