@@ -13,5 +13,11 @@ namespace WebApplication3.Controllers
         {
             return View();
         }
+        public ActionResult Iletisim()
+        {
+            ViewBag.Message = "Your application description page.";
+
+            return View();
+        }
     }
 }

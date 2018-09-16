@@ -1521,6 +1521,7 @@ img{
 
 #footer{
   bottom:0;
+  position:absolute;
   background-color: #171717;
   display: inline;
   float: left;
