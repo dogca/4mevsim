@@ -86,17 +86,17 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-6 col-sm-6 col-xs-6">
+                    @*<div class="col-md-6 col-sm-6 col-xs-6">
                         <div class="header-login">
                             <a class="login modal-form" data-target="#login-form" data-toggle="modal" href="#">Login / Sign Up</a>
                         </div>
-                    </div>
+                    </div>*@
                 </div>
             </div>
         </div>
     </header>
     <!-- End header -->
-    <!-- Start login modal window -->
+    @*<!-- Start login modal window -->
     <div aria-hidden="false" role="dialog" tabindex="-1" id="login-form" class="modal leread-modal fade in">
         <div class="modal-dialog">
             <!-- Start login section -->
@@ -156,7 +156,7 @@
             </div>
         </div>
     </div>
-    <!-- End login modal window -->
+    <!-- End login modal window -->*@
     <!-- BEGIN MENU -->
     <section id="menu-area">
         <nav class="navbar navbar-default" role="navigation">
@@ -171,13 +171,14 @@
                     </button>
                     <!-- LOGO -->
                     <!-- TEXT BASED LOGO -->
-                    <a class="navbar-brand" href="index.html">4 Mevsim Yapı</a>
+                    @*<a class="navbar-brand" href="index.html">4 Mevsim Yapı</a>*@
+                    <img src="~/Content/images/4_mevsim_logo-1-e1436410013100.png" style="width: 150px; height: 50px; margin-top: 14px;" />
                     <!-- IMG BASED LOGO  -->
                     <!-- <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="logo"></a> -->
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
-                        <li class="active"><a href="index.html">Ana Sayfa</a></li>
+                        <li>@Html.ActionLink("Ana Sayfa", "Index", "Home")</li>
                         <li><a href="portfolio.html">Galeri</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ürünler <span class="fa fa-angle-down"></span></a>
