@@ -172,7 +172,8 @@
                     <!-- LOGO -->
                     <!-- TEXT BASED LOGO -->
                     @*<a class="navbar-brand" href="index.html">4 Mevsim Yapı</a>*@
-                    <img src="~/Content/images/4_mevsim_logo-1-e1436410013100.png" style="width: 150px; height: 50px; margin-top: 14px;" />
+                    <a href="@Url.Action("Index","Home")"><img src="~/Content/images/4_mevsim_logo-1-e1436410013100.png" style="width: 150px; height: 50px; margin-top: 14px;" /></a>
+                    @*<img src="~/Content/images/4_mevsim_logo-1-e1436410013100.png" style="width: 150px; height: 50px; margin-top: 14px;" />*@
                     <!-- IMG BASED LOGO  -->
                     <!-- <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="logo"></a> -->
                 </div>
@@ -183,10 +184,13 @@
                         <li class="dropdown">
                             <a @Html.ActionLink("Ürünler" , "Urunler", "Home")</a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="blog-archive.html">Kapı</a></li>
-                                <li><a href="blog-single-with-left-sidebar.html">Kapı2</a></li>
-                                <li><a href="blog-single-with-right-sidebar.html">Kapı3</a></li>
-                                <li><a href="blog-single-with-out-sidebar.html">Kapı4</a></li>
+                                <li><a href="blog-archive.html">Cam Sistemleri</a></li>
+                                <li><a href="blog-single-with-left-sidebar.html">Laminant Parke</a></li>
+                                <li><a href="blog-single-with-right-sidebar.html">Sineklik</a></li>
+                                <li><a href="blog-single-with-out-sidebar.html">Çelik Kapı</a></li>
+                                <li><a href="blog-archive.html">Mutfak Dolabı</a></li>
+                                <li><a href="blog-archive.html">Duşakabin-Vitrifiye</a></li>
+                                <li><a href="blog-archive.html">Garaj-Panjur</a></li>
                             </ul>
                         </li>
                         @*<li><a href="Iletisim">İletişim</a></li>*@
