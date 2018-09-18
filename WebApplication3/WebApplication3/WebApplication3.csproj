@@ -211,6 +211,7 @@
     <Content Include="Views\Home\_Urunler.cshtml" />
     <Content Include="Views\Home\_Portfolyo.cshtml" />
     <Content Include="Views\Home\_AltLink.cshtml" />
+    <Content Include="Views\Home\Galeri.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

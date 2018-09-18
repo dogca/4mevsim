@@ -22,6 +22,10 @@ namespace WebApplication3.Controllers
         {
             return View();
         }
+        public ActionResult Galeri()
+        {
+            return View();
+        }
         [ChildActionOnly]
         public ActionResult _Slider()
         {
