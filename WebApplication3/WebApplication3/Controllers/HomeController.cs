@@ -26,6 +26,12 @@ namespace WebApplication3.Controllers
         {
             return View();
         }
+        public ActionResult CamSistemleri()
+        {
+            return View();
+        }
+
+
         [ChildActionOnly]
         public ActionResult _Slider()
         {
@@ -43,6 +49,9 @@ namespace WebApplication3.Controllers
         {
             return View();
         }
-
+        public ActionResult _SinglePageHeader()
+        {
+            return View();
+        }
     }
 }
