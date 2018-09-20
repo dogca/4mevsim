@@ -1365,6 +1365,7 @@ img{
   float: left;
   width: 100%;
   padding-bottom: 0px;
+  height: 450px;
 }
 
 .blog-news-img {
@@ -1383,7 +1384,7 @@ img{
   display: inline;
   /*float: left;*/
   text-align: center;
-  padding: 20px 15px 15px;
+  padding: 10px 0px 0px;
   width: 100%;
 }
 
@@ -1419,7 +1420,7 @@ img{
 .blog-news-details{
   display: inline;
   float: left;
-  padding: 0 15px;
+  /*padding: 0 15px;*/
   width: 100%;
 }
 
