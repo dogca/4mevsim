@@ -223,6 +223,7 @@
     <Content Include="Views\Home\_AltLink.cshtml" />
     <Content Include="Views\Home\Galeri.cshtml" />
     <Content Include="Views\Home\_SinglePageHeader.cshtml" />
+    <Content Include="Views\Home\CamSistemleri.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
