@@ -157,6 +157,8 @@
     <Content Include="Content\images\slider-1.jpg" />
     <Content Include="Content\images\slider-3.jpg" />
     <Content Include="Content\images\slider-5.jpg" />
+    <Content Include="Content\images\slider-deneme.jpg" />
+    <Content Include="Content\images\slider-kapi.jpg" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\style.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
