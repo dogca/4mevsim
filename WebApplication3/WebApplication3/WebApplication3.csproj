@@ -224,6 +224,12 @@
     <Content Include="Views\Home\Galeri.cshtml" />
     <Content Include="Views\Home\_SinglePageHeader.cshtml" />
     <Content Include="Views\Home\CamSistemleri.cshtml" />
+    <Content Include="Views\Home\LaminantParke.cshtml" />
+    <Content Include="Views\Home\Sineklik.cshtml" />
+    <Content Include="Views\Home\Panjur.cshtml" />
+    <Content Include="Views\Home\Dusakabin.cshtml" />
+    <Content Include="Views\Home\Dolap.cshtml" />
+    <Content Include="Views\Home\Kapi.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
