@@ -1368,6 +1368,19 @@ img{
   height: 450px;
 }
 
+.blog-news-urun {
+  background-color: #fff;
+  display: inline;
+  float: left;
+  width: 100%;
+  padding-bottom: 0px;
+  height: 240px;
+  border: 1px solid white;
+  border-radius: 5px;
+
+
+}
+
 .blog-news-img {
   display: inline;
   float: left;
@@ -1772,6 +1785,10 @@ img{
   margin-bottom: 30px;
 }
 
+.blog-archive-left .blog-news-urun{
+  margin-bottom: 30px;
+}
+
 .blog-archive-left .blog-news-img {  
   height: 350px;
 }
@@ -2039,6 +2056,8 @@ img{
   text-decoration: none;
   outline: none;
 }
+
+
 
 .blog-navigation-area{
   display: inline;

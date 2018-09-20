@@ -30,6 +30,31 @@ namespace WebApplication3.Controllers
         {
             return View();
         }
+        public ActionResult Dolap()
+        {
+            return View();
+        }
+        public ActionResult Kapi()
+        {
+            return View();
+        }
+        public ActionResult LaminantParke()
+        {
+            return View();
+        }
+        public ActionResult Sineklik()
+        {
+            return View();
+        }
+        public ActionResult Panjur()
+        {
+            return View();
+        }
+        public ActionResult Dusakabin()
+        {
+            return View();
+        }
+
 
 
         [ChildActionOnly]
