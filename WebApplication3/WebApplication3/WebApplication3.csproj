@@ -132,12 +132,15 @@
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\images\4 mevsim logo png.png" />
     <Content Include="Content\images\4_mevsim_logo-1-e1436410013100.png" />
+    <Content Include="Content\images\kapi.png" />
+    <Content Include="Content\images\parke.png" />
+    <Content Include="Content\images\cam.png" />
+    <Content Include="Content\images\fly.png" />
     <Content Include="Content\images\jaluzi.png" />
     <Content Include="Content\images\banyodolabi-vitrifiye.png" />
     <Content Include="Content\images\blog-img-1.jpg" />
     <Content Include="Content\images\camsistemleri.png" />
     <Content Include="Content\images\celikkapi-odakapisi.png" />
-    <Content Include="Content\images\sinek.png" />
     <Content Include="Content\images\fancybox_sprite.png" />
     <Content Include="Content\images\favicon.ico" />
     <Content Include="Content\images\fancybox_sprite%402x.png" />
@@ -162,6 +165,7 @@
     <Content Include="Content\images\slider-5.jpg" />
     <Content Include="Content\images\slider-deneme.jpg" />
     <Content Include="Content\images\slider-kapi.jpg" />
+    <Content Include="Content\images\korkuluk.png" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\style.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
