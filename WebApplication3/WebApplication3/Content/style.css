@@ -2716,7 +2716,6 @@ img{
   padding: 50% 0;
   border-radius: 50%;
   background: #970202;
-  z-index: 999;
   color: #fff;    
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -2729,7 +2728,6 @@ img{
 .circle:focus{
   background-color: #fff;
   text-decoration: none;
-  border:1px solid black;
 }
 .vectorboyut {
     width: 50%;
