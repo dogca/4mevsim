@@ -78,5 +78,9 @@ namespace WebApplication3.Controllers
         {
             return View();
         }
+        public ActionResult _Daireler()
+        {
+            return View();
+        }
     }
 }

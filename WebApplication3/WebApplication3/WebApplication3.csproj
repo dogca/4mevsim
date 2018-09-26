@@ -132,10 +132,12 @@
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\images\4 mevsim logo png.png" />
     <Content Include="Content\images\4_mevsim_logo-1-e1436410013100.png" />
+    <Content Include="Content\images\jaluzi.png" />
     <Content Include="Content\images\banyodolabi-vitrifiye.png" />
     <Content Include="Content\images\blog-img-1.jpg" />
     <Content Include="Content\images\camsistemleri.png" />
     <Content Include="Content\images\celikkapi-odakapisi.png" />
+    <Content Include="Content\images\sinek.png" />
     <Content Include="Content\images\fancybox_sprite.png" />
     <Content Include="Content\images\favicon.ico" />
     <Content Include="Content\images\fancybox_sprite%402x.png" />
@@ -235,6 +237,7 @@
     <Content Include="Views\Home\Dusakabin.cshtml" />
     <Content Include="Views\Home\Dolap.cshtml" />
     <Content Include="Views\Home\Kapi.cshtml" />
+    <Content Include="Views\Home\_Daireler.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
