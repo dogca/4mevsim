@@ -147,6 +147,8 @@ img{
 	float: left;
 	display: inline;
 	width: 100%;
+    /*position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
 }
 
 .header-top{
@@ -159,7 +161,7 @@ img{
 
 #search{
 	margin: 0 auto;
-	width: 70%;
+	width: 100%;
 }
 
 #search input {
@@ -1539,8 +1541,7 @@ img{
 
 
 #footer{
-  bottom:0;
-
+  bottom: 0px;
   background-color: #171717;
   display: inline;
   float: left;
@@ -2740,3 +2741,11 @@ img{
     margin-bottom: auto;
 }
 
+
+
+.project-info {margin: 0px 0px 40px 0px;}
+.project-info li { 
+	list-style: none; 
+	border-bottom: 1px dashed #a9a9a9;;
+	padding: 10px; }
+.project-info li h6 {display: inline; margin-right: 5px;}

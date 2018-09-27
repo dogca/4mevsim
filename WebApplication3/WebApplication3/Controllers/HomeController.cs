@@ -54,6 +54,10 @@ namespace WebApplication3.Controllers
         {
             return View();
         }
+        public ActionResult Urun()
+        {
+            return View();
+        }
 
 
 

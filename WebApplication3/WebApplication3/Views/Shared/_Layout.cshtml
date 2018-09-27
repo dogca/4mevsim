@@ -86,11 +86,11 @@
                             </ul>
                         </div>
                     </div>
-                    @*<div class="col-md-6 col-sm-6 col-xs-6">
+                    <div class="col-md-6 col-sm-6 col-xs-6">
                         <div class="header-login">
                             <a class="login modal-form" data-target="#login-form" data-toggle="modal" href="#">Login / Sign Up</a>
                         </div>
-                    </div>*@
+                    </div>
                 </div>
             </div>
         </div>
@@ -202,8 +202,21 @@
                     </i>
                 </a>
             </div>
+            <nav class="header-top">
+                <div class="container">
+                    <form action="">
+                        <div id="search">
+                            <input type="text" placeholder="Ne arzu etmiştiniz..." name="s" id="m_search" style="display: inline-block;">
+                            <button type="submit">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </nav>
         </nav>
     </section>
+
     <!-- END MENU -->
     @RenderBody()
     <!-- Start footer -->
