@@ -2746,6 +2746,34 @@ img{
 .project-info {margin: 0px 0px 40px 0px;}
 .project-info li { 
 	list-style: none; 
-	border-bottom: 1px dashed #a9a9a9;;
+	border-bottom: 1px dashed #a9a9a9;
 	padding: 10px; }
 .project-info li h6 {display: inline; margin-right: 5px;}
+
+
+.urun-bolge {
+  display: inline;
+  float: right;
+  text-align: center;
+  width: 100%;
+}
+
+.urun-bolge .title {	
+	font-size: 35px;
+	font-weight: 700;
+	line-height: 35px;
+	text-transform: uppercase;
+}
+
+.urun-bolge .line {
+  background-color: #777;
+  display: inline-block;
+  height: 2px;
+  width: 240px;
+}
+
+.urun-bolge p {
+  color: #777777;
+  line-height: 25px;
+  margin-top: 20px;
+}
