@@ -2791,5 +2791,5 @@ img{
 .wrapper{
     min-height: calc(100vh - 40px);
     height:auto;
-
+    background-color: #f8f8f8;
 }
