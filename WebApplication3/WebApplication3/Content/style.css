@@ -2749,3 +2749,27 @@ img{
 	border-bottom: 1px dashed #a9a9a9;;
 	padding: 10px; }
 .project-info li h6 {display: inline; margin-right: 5px;}
+
+.iletisim {
+  bottom: 60px;
+  border-radius: 0px;
+  display: block;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  line-height: 45px;
+  font-weight: bold;
+  height: 40px;
+  position: fixed;
+  left: 0px;
+  text-align: center;
+  text-decoration: none;
+  width: 200px;
+  z-index: 999;
+  color: #fff;    
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  background-color: #970001;
+}
