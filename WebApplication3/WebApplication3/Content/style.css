@@ -1541,12 +1541,15 @@ img{
 
 
 #footer{
-  bottom: 0px;
   background-color: #171717;
-  display: inline;
+  display: block;
   float: left;
   padding: 25px 0;
   width: 100%;
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:0;
 }
 
 .footer-left{
