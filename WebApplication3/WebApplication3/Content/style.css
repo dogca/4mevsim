@@ -1541,16 +1541,23 @@ img{
 
 
 #footer{
+  position: relative;
+  margin-top: -25px; /* negative value of footer height */
+  /*height: 35px;*/
+  clear: both;
   background-color: #171717;
-  display: block;
+  display: table-row;
   float: left;
   padding: 25px 0;
   width: 100%;
-  position:absolute;
-  left:0;
-  right:0;
-  bottom:0;
+  /*position:absolute;*/
+  
 }
+#main {
+  overflow: auto;
+  padding-bottom: 40px; /* must be same height as the footer */
+}
+
 
 .footer-left{
   display: inline;
@@ -2780,4 +2787,9 @@ img{
     width: 48.936%;
     float: left;
     margin: 1px 0 1px 2.127%;
+}
+.wrapper{
+    min-height: calc(100vh - 40px);
+    height:auto;
+
 }
