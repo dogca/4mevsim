@@ -1385,6 +1385,72 @@ img{
 
 }
 
+.urun-kalip {
+  background-color: #fff;
+  display: inline;
+  float: left;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.urun-img {
+  display: inline;
+  float: left;
+  height: 270px;
+  width: 100%;
+
+}
+
+.urun-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.urun-title {
+  color: #000;
+  display: inline;
+  float: left;
+  text-align: center;
+  padding: 10px 0px 0px;
+  width: 100%;
+}
+
+.urun-title h2,
+.urun-title h2>a{
+  color: #222;
+  font-family: "Lato",sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: uppercase; 
+  padding: 0; 
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.urun-title h2>a:hover{
+  text-decoration: none;
+  outline: none;
+}
+
+.urun-title p {
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.urun-title .blog-author{
+  text-transform: uppercase;
+}
+
+.urun-details{
+  display: inline;
+  float: left;
+  padding: 0 15px;
+  width: 100%;
+}
+
+
 .blog-news-img {
   display: inline;
   float: left;
@@ -1396,7 +1462,7 @@ img{
 .blog-news-img img {
   width: 100%;
   height: 100%;
-  border-radius: 2%;
+  /*border-radius: 2%;*/
 }
 
 .blog-news-title {
